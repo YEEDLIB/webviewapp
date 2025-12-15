@@ -1,5 +1,5 @@
-name: local_webview_app
-description: A Flutter app that loads local HTML/CSS/JS files
+name: webview_local_app
+description: A new Flutter project.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,8 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   webview_flutter: ^4.4.2
-  webview_flutter_android: ^2.11.3
-  webview_flutter_wkwebview: ^3.3.1
   path_provider: ^2.1.0
 
 dev_dependencies:
@@ -22,6 +20,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/html/
-    - assets/css/
-    - assets/js/
+    - assets/
